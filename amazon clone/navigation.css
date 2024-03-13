@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+*{
+    padding :0;
+    margin :0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+.logo{
+    padding-top: 5px;
+}
+
+.navigation-bar{
+    background-color: #131921;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding : 10px 15px;
+    align-items: center;
+}
+
+.navigation-location{
+    display: flex;
+    align-items: flex-end;
+    gap:5px;
+    font-size: 14px;
+    color:#c4c4c4;
+    margin-left: 10px;
+}
+
+.larger{
+    font-size: 15px;
+    color: white;
+}
+
+.navigation-search{
+    flex:1;
+    display: flex;
+    max-width: 900px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.navigation-search .search-dropdown{
+    display: flex;
+    font-size:14px;
+    gap:5px;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding: 5px;
+    padding: 10px 8px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.navigation-search-input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 8px;
+}
+
+.search-icon{
+    padding: 8px;
+    background-color: #ffd64f;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.navigation-language{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-left: 10px;
+}
+
+.navigation-signin{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-left: 10px;
+}
+
+.navigation-orders{
+    font-size: 14px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navigation-cart{
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navigation-bottom{
+    display: flex;
+    background-color: #232f3e;
+    padding:9px 13px;
+    color:white;
+    align-items: center;
+    gap: 20px;
+}
+
+.flyout-box{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}

@@ -1,0 +1,24 @@
+.image-slider ul{
+    display:flex;
+    overflow-y: hidden;
+}
+
+.header-image{
+    max-width: 100vw;
+    mask-image: linear-gradient(to bottom, white 50%,transparent 100%)
+}
+
+.previous-button{
+    position: absolute;
+    font-size: 80px;
+    top: 25%;
+    z-index: 1;
+}
+
+.next-button{
+    font-size: 80px;
+    position: absolute;
+    top: 25%;
+    right:0;
+    z-index: 1;
+}
