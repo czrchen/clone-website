@@ -31,4 +31,15 @@ next.addEventListener('click',(e)=>{
     Slide();
 })
 
+function autoSlide() {
+    setInterval(() => {
+        if (n < images.length - 1) {
+            n++;
+        } else {
+            n = 0;
+        }
+        Slide();
+    }, 3000);
+}
 
+autoSlide();
