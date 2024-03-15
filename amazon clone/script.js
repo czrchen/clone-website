@@ -39,7 +39,18 @@ function autoSlide() {
             n = 0;
         }
         Slide();
-    }, 3000);
+    }, 5000);
 }
 
 autoSlide();
+
+const sliders = document.querySelectorAll('.item-sliderbox');
+
+sliders.forEach(function(slider) {
+    const scrollbar = slider.querySelector('.sliderbox');
+    
+    scrollbar.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        scrollbar.scrollLeft += e.deltaY;
+    });
+});

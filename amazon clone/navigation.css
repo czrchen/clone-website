@@ -12,6 +12,10 @@ a{
     font-family: outfit;
 }
 
+body{
+    background-color: #dadada;
+}
+
 .logo{
     padding-top: 5px;
 }
