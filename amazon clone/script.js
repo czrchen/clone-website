@@ -54,3 +54,9 @@ sliders.forEach(function(slider) {
         scrollbar.scrollLeft += e.deltaY;
     });
 });
+
+const backtotop = document.querySelector('.back-to-top');
+
+backtotop.addEventListener('click',(e)=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+})

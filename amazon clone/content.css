@@ -104,6 +104,7 @@
 #first-row{
     color:#cc0c39 ;
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 #red-box{
@@ -144,21 +145,14 @@
     background-color: #0d56d5;
     padding: 10px;
     border-radius: 10px;
-    margin:5px ;
+    margin:35px ;
+    margin-bottom: 10px;
     width: 15%;
     color:#fbfbfb;
     text-align: center;
     min-width: 100px;
 }
 
-.horizontal-line{
-    width: 300px;
-    height: 3px;
-    background-color: black;
-    border-radius: 200px;
-    margin: 10px;
-    margin-bottom: 30px;
-}
 
 .signin-button a:hover{
     color: #fbfbfb;
@@ -169,5 +163,81 @@
     text-decoration: underline;
     color: #0d56d5;
 }
+
+.back-to-top{
+    background-color: #37475A;
+    color: white;
+    padding:13px;
+    text-align: center;
+    font-size: 13px;
+    cursor:pointer;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    background-color:#232F3E ;
+    color:#fbfbfb;
+}
+
+.footer-top a{
+    color: #DDD;
+    font-size: 15px;
+    font-weight: 50;
+    font-family: Arial, sans-serif;
+}
+
+.footer-top a:hover{
+    text-decoration: underline;
+}
+
+.upper-part{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    font-size: 16px;
+    padding: 38px;
+    border-bottom: #848688 1px solid;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 180px;
+}
+
+.lower-part{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding:10px;
+    padding-bottom: 18px;
+}
+
+.footerlogo{
+    margin-top: 9px;
+}
+
+.threeboxes{
+    display: flex;
+}
+
+.footerbox{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    border:#848688 1px solid;
+    margin: 18px 4px;
+    padding:8px;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 150px;
+}
+
+.footerbox.currency{
+    width: 170px;
+}
+
 
     
