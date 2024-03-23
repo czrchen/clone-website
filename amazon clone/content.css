@@ -86,4 +86,88 @@
     margin-top: 10px;
 }
 
+.item-card{
+    background-color: #fbfbfb;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    min-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-details p{
+    margin-bottom: 6px;
+}
+
+#first-row{
+    color:#cc0c39 ;
+    margin-bottom: 10px;
+}
+
+#red-box{
+    background-color: #cc0c39;
+    padding:4px 9px;
+    color: #fbfbfb;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+#larger{
+    font-size: 17px;
+}
+
+#gray{
+    color:gray;
+}
+
+#cross-over{
+    text-decoration: line-through;
+}
+
+.signup{
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+.signup-title{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.signin-button{
+    background-color: #0d56d5;
+    padding: 10px;
+    border-radius: 10px;
+    margin:5px ;
+    width: 15%;
+    color:#fbfbfb;
+    text-align: center;
+    min-width: 100px;
+}
+
+.horizontal-line{
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    border-radius: 200px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.signin-button a:hover{
+    color: #fbfbfb;
+    text-decoration: underline;
+}
+
+.joinnow a:hover{
+    text-decoration: underline;
+    color: #0d56d5;
+}
+
     
