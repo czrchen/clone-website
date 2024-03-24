@@ -116,11 +116,3 @@ body{
     gap:5px;
 }
 
-.back-to-top{
-    background-color: #37475A;
-    color: white;
-    padding:17px;
-    text-align: center;
-    font-size: 14px;
-    cursor:pointer;
-}
